@@ -325,6 +325,9 @@
         padding-top: 10px !important;
         /* background-color: red; */
     }
+    .about h1{
+        font-size: 40px;
+    }
     .about-main{
         display: inline;
     }
@@ -408,6 +411,9 @@
         .my-service-main p{
             width: 290px;
         }
+        .my-service-main h1{
+            font-size: 40px;
+        }
         .service-cards{
             padding-top: 50px;
             display: inline;
@@ -415,6 +421,12 @@
         .service-card{
            margin-bottom: 20px !important;
            width: 400px;
+           height: 270px;
           margin: auto;
+        }
+        .service-card p{
+            font-size: 13px !important;
+            margin-top: 20px;
+            width: 100% !important;
         }
 }
