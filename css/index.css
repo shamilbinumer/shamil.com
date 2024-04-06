@@ -80,6 +80,7 @@
     background-color: #111827;
 }
 .fa-bars{
+    color: #EAB308;
     margin-left: 14px;
     padding-top: 10px;
     font-size: 26px !important;
@@ -276,7 +277,7 @@
     width: 450px;
     height: 450px;
     border: 9px solid #EAB308;
-    border-radius: 15px;
+    /* border-radius: 15px; */
    
 }
 .about-img{
@@ -286,7 +287,7 @@
    position: absolute;
    top: 5%;
    left: 5%;
-   border-radius: 15px;
+   /* border-radius: 10px; */
    overflow: hidden;
 }
 .about-img img{
@@ -339,12 +340,14 @@
         width: 90%;
         margin: auto;
     }
-    .img-bg-div{
-       display: none;
-       
-    }
+     .img-bg-div{
+        width: 320px;
+        height: 320px;
+        margin-top: 20px;
+    } 
     .about-img{
-       display: none;
+      width: 320px;
+      height: 320px;
     }
     
 }
