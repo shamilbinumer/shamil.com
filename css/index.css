@@ -78,12 +78,16 @@
 /* Mobile Navbar styles */
 .mobile-navbar{
     background-color: #111827;
+    position: sticky;
+    top: 0;
+    z-index: 9000;
 }
 .fa-bars{
     color: #EAB308;
     margin-left: 14px;
     padding-top: 10px;
-    font-size: 26px !important;
+    margin-bottom: 10px;
+    font-size: 32px !important;
 }
 
 .offcanvas{
