@@ -366,7 +366,7 @@
     width: 100%;
     height: 92vh;
     padding-bottom: 30px !important;
-    padding: 80px;
+    padding: 30px;
 }
 .my-service-main h1{
     padding-top: 30px !important;
@@ -436,4 +436,133 @@
             margin-top: 20px;
             width: 100% !important;
         }
+}
+/* skills-section-styles */
+.skils{
+    width: 100%;
+    height: 100vh;
+    background-color: #020617;
+    padding-top: 50px;
+}
+.skills-header h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.skills-header span{
+    color: #EAB308;
+
+}
+.list-skilss-main{
+    /* background-color: red; */
+    width: 90%;
+    height: 400px;
+    margin-top: 70px !important;
+    margin: auto;
+    /* overflow-x: scroll !important; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+/* .list-skilss-main::-webkit-scrollbar{
+    display: none;
+} */
+.skill-card{
+    width: 200px;
+    height: 200px;
+    background-color: #111827;
+    padding: 30px;
+}
+.skill-img{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.skill-img img{
+    width: 40%;
+}
+.skill-title{
+    color: #9CA3AF;
+    text-align: center;
+    /* margin-top: 30px; */
+}
+@media(min-width:300px) and (max-width:575px){
+    .skils{
+        height: 1900px !important;
+    }
+    .skills-header h1{
+        font-size: 40px;
+    }
+    .skill-card{
+        width: 280px !important;
+        margin: auto;
+    }
+}
+/* experience-section-styles */
+
+.experience{
+    width: 100%;
+    height: 100vh;
+    background-color: #111827;
+}
+.experience-header{
+    padding: 50px;
+    padding-left: 10rem;
+}
+.experience-header h1{
+    font-size: 50px;
+    color: white;
+}
+.experience-header span{
+    color: #EAB308;
+}
+.experience-header p{
+    width: 40%;
+    color: #9CA3AF;
+}
+.exp-card-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.exp-card{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #020617;
+    padding: 20px;
+}
+.exp-year{
+    color: #9CA3AF;
+}
+.job-title{
+    color: #EAB308;
+}
+.job-cmpny{
+    color: white;
+}
+.job-jd{
+    color: #9CA3AF;
+}
+@media(min-width:300px) and (max-width:575px){
+    .experience{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .experience-header{
+        padding-left: 2rem;
+    }
+    .experience-header h1{
+        font-size: 40px;
+    }
+    .experience-header p{
+        width: 100%;
+    }
+    .exp-card{
+        width: 300px;
+       margin: auto
+    }
 }
