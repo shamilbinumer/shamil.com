@@ -91,7 +91,7 @@
 }
 
 .offcanvas{
-    height: 240px !important;
+    height: 370px !important;
     width: 150px !important;
     background: linear-gradient(#020617,#111827);
     color: #ffffff !important;
@@ -100,6 +100,9 @@
     text-decoration: none;
     color: white;
     /* padding-left: 30px; */
+}
+.offcanvas-body .nav-links{
+    margin-bottom: 20px;
 }
 
 @media(min-width:576px){
