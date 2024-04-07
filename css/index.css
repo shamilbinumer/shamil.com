@@ -91,8 +91,15 @@
 }
 
 .offcanvas{
-    width: 250px !important;
-    background-color: red;
+    height: 240px !important;
+    width: 150px !important;
+    background: linear-gradient(#020617,#111827);
+    color: #ffffff !important;
+}
+.offcanvas-body a{
+    text-decoration: none;
+    color: white;
+    /* padding-left: 30px; */
 }
 
 @media(min-width:576px){
@@ -556,7 +563,7 @@
         padding-left: 2rem;
     }
     .experience-header h1{
-        font-size: 40px;
+        font-size: 40px !important;
     }
     .experience-header p{
         width: 100%;
